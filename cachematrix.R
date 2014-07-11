@@ -19,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
         ##create get function that returns cached matrix x
         get <- function() x
         
-        ##create setinvers function that solves inverse of cached
+        ##create setinverse function that solves inverse of cached
         ##matrix x and caches the inverse in matinverse
         setinverse <- function(x) matinverse <<- solve(x)
         
